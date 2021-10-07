@@ -1,0 +1,37 @@
+# Nmap 7.91 scan initiated Tue Nov 24 23:30:16 2020 as: nmap -p 8089 -A -v -oN nmap8089.txt 10.10.10.209
+Nmap scan report for 10.10.10.209
+Host is up (0.12s latency).
+
+PORT     STATE SERVICE  VERSION
+8089/tcp open  ssl/http Splunkd httpd
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Splunkd
+|_http-title: splunkd
+| ssl-cert: Subject: commonName=SplunkServerDefaultCert/organizationName=SplunkUser
+| Issuer: commonName=SplunkCommonCA/organizationName=Splunk/stateOrProvinceName=CA/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-06T15:57:27
+| Not valid after:  2023-09-06T15:57:27
+| MD5:   db23 4e5c 546d 8895 0f5f 8f42 5e90 6787
+|_SHA-1: 7ec9 1bb7 343f f7f6 bdd7 d015 d720 6f6f 19e2 098b
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 4.15 - 5.6 (92%), Linux 5.0 (92%), Linux 5.0 - 5.4 (91%), Linux 5.3 - 5.4 (91%), Linux 2.6.32 (91%), Linux 5.0 - 5.3 (90%), Crestron XPanel control system (90%), Linux 5.4 (89%), ASUS RT-N56U WAP (Linux 3.4) (87%), Linux 3.1 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 42.363 days (since Tue Oct 13 15:48:02 2020)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 8089/tcp)
+HOP RTT       ADDRESS
+1   112.70 ms 10.10.14.1
+2   112.57 ms 10.10.10.209
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 24 23:31:06 2020 -- 1 IP address (1 host up) scanned in 50.37 seconds

