@@ -1,4 +1,0 @@
-/wp-content           (Status: 301) [Size: 317] [--> http://10.10.11.125/wp-content/]
-/wp-includes          (Status: 301) [Size: 318] [--> http://10.10.11.125/wp-includes/]
-/wp-admin             (Status: 301) [Size: 315] [--> http://10.10.11.125/wp-admin/]
-/server-status        (Status: 403) [Size: 277]
