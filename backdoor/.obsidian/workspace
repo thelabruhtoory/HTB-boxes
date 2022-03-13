@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "0519f9ccbf3a7562",
+    "type": "split",
+    "children": [
+      {
+        "id": "9595d859b6c91a27",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "backdoor_report.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53ba1776a954f60e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3f368e9cb31f8c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d0ca6a01eb2eceb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f5c7401c05d29f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "feccdbc960d1ad09",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd57c27d7cc0443e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "364a26ee1a13cecd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "backdoor_report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9595d859b6c91a27",
+  "lastOpenFiles": [
+    "backdoor_report.md",
+    "backdoor_report.pdf",
+    "commands_2_run.md",
+    "recon/nmap_init_udp.md",
+    "recon/nmap_init_tcp.md",
+    "recon/nmap_init_pn_tcp.md",
+    "enum/mini_report.md",
+    "screenshots-storage/gdb exploitation.png",
+    "recon/mini_report.md",
+    "screenshots-storage/get root.png"
+  ]
+}

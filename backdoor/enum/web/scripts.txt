@@ -1,0 +1,8 @@
+http://10.10.11.125:80/wp-includes/js/wp-embed.min.js?ver=5.8.1
+http://10.10.11.125:80/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2
+http://10.10.11.125:80/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?ver=2.1.2
+http://10.10.11.125:80/wp-content/themes/twentyseventeen/assets/js/navigation.js?ver=20161203
+http://10.10.11.125:80/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js?ver=20161114
+http://10.10.11.125:80/wp-content/themes/twentyseventeen/assets/js/global.js?ver=20190121
+http://10.10.11.125:80/wp-content/themes/twentyseventeen/assets/js/html5.js?ver=20161020
+http://10.10.11.125:80/wp-includes/js/jquery/jquery.min.js?ver=3.6.0
