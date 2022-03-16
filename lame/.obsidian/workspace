@@ -89,14 +89,14 @@
   "active": "8a1db94c4d0deac5",
   "lastOpenFiles": [
     "lame_report.md",
+    "screenshots-storage/got_root.png",
+    "priv-enum/mini_report.md",
+    "priv-xp/mini_report.md",
+    "screenshots-storage/got_user.png",
     "lame_report.pdf",
     "recon/nmap_all_vuln2.md",
     "xp/mini_report.md",
     "recon/nmap_all_vuln.md",
-    "priv-enum/mini_report.md",
-    "priv-xp/mini_report.md",
-    "recon/nmap_all_tcp.md",
-    "enum/smb/mini_report.md",
-    "screenshots-storage/pop shell.png"
+    "recon/nmap_all_tcp.md"
   ]
 }
