@@ -1,6 +1,6 @@
 ---
 title: "Hack The Box: Backdoor Report"
-author: ["0x00ps"]
+author: ["gndpwnd"]
 date: "2022-3-13"
 subject: "Markdown"
 keywords: [Markdown, Example]
@@ -205,30 +205,6 @@ Reading symbols from target:/home/user/binary.elf...
 
 #### Privilege Escalation
 
-**MYSQL Credentials**
-
-Found in:  */var/www/data/wordpress/wp-config.php*
-
-```txt
-username: wordpressuser
-password: MQYBJSaD#DxG6qbm
-```
-
-Commands used to enumerate MYSQL service:
-
-```txt
-mysql -u wordpressuser -pMQYBJSaD#DxG6qbm
-use wordpress;
-select * from wp_users;
-exit
-```
-
-Found Wordpress admin user hash:
-
-```txt
-admin::$P$Bt8c3ivanSGd2TFcm3HV/9ezXPueg5
-```
-
 **Vulnerability Exploited:** 
 
 Attaching to screen session of other users.
@@ -278,19 +254,43 @@ Ensuring that we are meticulous and no remnants of our penetration test are left
 After collecting trophies from the Backdoor machine was completed, I removed all user accounts, passwords, and malicious codes used during the penetration test.
 Hack the box should not have to remove any user accounts or services from the system.
 
-# Additional Items
+# Appendix - Additional Items
 
 ## Appendix - Proof and Local Contents:
 
 IP (Hostname) | Local.txt Contents | Proof.txt Contents
 --------------|--------------------|-------------------
-10.10.11.125   | 6b703f8f851ed42c0e37aafdadba7854          | 2630fe7ba50e8adf06523504a7686134
+10.10.11.125   | 6b703f8f851ed42c0e37aafdadba7854  | 2630fe7ba50e8adf06523504a7686134
 
+## Appendix - MYSQL Enumeration
 
+**MYSQL Credentials**
 
-### Appendix - /etc/passwd contents
+Found in:  */var/www/data/wordpress/wp-config.php*
 
+```txt
+username: wordpressuser
+password: MQYBJSaD#DxG6qbm
 ```
+
+Commands used to enumerate MYSQL service:
+
+```txt
+mysql -u wordpressuser -pMQYBJSaD#DxG6qbm
+use wordpress;
+select * from wp_users;
+exit
+```
+
+Found Wordpress admin user hash:
+
+```txt
+admin::$P$Bt8c3ivanSGd2TFcm3HV/9ezXPueg5
+```
+
+## Appendix - /etc/passwd contents
+
+```txt
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -328,9 +328,9 @@ lxd:x:998:100::/var/snap/lxd/common/lxd:/bin/false
 mysql:x:113:118:MySQL Server,,,:/nonexistent:/bin/false
 ```
 
-### Appendix - /etc/shadow contents
+## Appendix - /etc/shadow contents
 
-```
+```txt
 root:$6$Ge7j2m6HBATUjQ8p$nNMtfyfrLzjPvVl9Txt58qcx1Lm9jpd23z7a5qOLBuzbiUfuh4NrQtUBDHE8v6n3q17tfZJ6.f3nvgfEZS5qB/:19064:0:99999:7:::
 daemon:*:18659:0:99999:7:::
 bin:*:18659:0:99999:7:::

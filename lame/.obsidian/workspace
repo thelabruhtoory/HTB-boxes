@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "0519f9ccbf3a7562",
+    "id": "911450000e3a569a",
     "type": "split",
     "children": [
       {
-        "id": "50a428ee8c8ad504",
+        "id": "8a1db94c4d0deac5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "backdoor_report.md",
+            "file": "lame_report.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "53ba1776a954f60e",
+    "id": "8674e8b21a18a67d",
     "type": "split",
     "children": [
       {
-        "id": "f3f368e9cb31f8c5",
+        "id": "5a765ca762136695",
         "type": "tabs",
         "children": [
           {
-            "id": "7d0ca6a01eb2eceb",
+            "id": "0e912fd395a13274",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "9f5c7401c05d29f3",
+            "id": "c8eef36ddaf5d488",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,23 +52,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 277
   },
   "right": {
-    "id": "feccdbc960d1ad09",
+    "id": "0d84ceed726eec0b",
     "type": "split",
     "children": [
       {
-        "id": "cd57c27d7cc0443e",
+        "id": "d074acce8877b114",
         "type": "tabs",
         "children": [
           {
-            "id": "364a26ee1a13cecd",
+            "id": "d3dc6b5b97503243",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backdoor_report.md",
+                "file": "lame_report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "50a428ee8c8ad504",
+  "active": "8a1db94c4d0deac5",
   "lastOpenFiles": [
-    "backdoor_report.md",
-    "backdoor_report.pdf",
-    "commands_2_run.md",
-    "recon/nmap_init_udp.md",
-    "recon/nmap_init_tcp.md",
-    "recon/nmap_init_pn_tcp.md",
-    "enum/mini_report.md",
-    "screenshots-storage/gdb exploitation.png",
-    "recon/mini_report.md",
-    "screenshots-storage/get root.png"
+    "lame_report.md",
+    "lame_report.pdf",
+    "recon/nmap_all_vuln2.md",
+    "xp/mini_report.md",
+    "recon/nmap_all_vuln.md",
+    "priv-enum/mini_report.md",
+    "priv-xp/mini_report.md",
+    "recon/nmap_all_tcp.md",
+    "enum/smb/mini_report.md",
+    "screenshots-storage/pop shell.png"
   ]
 }
