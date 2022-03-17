@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98e0a9d9294256a9",
+        "id": "5ef52927fc2477a2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "shocker_report.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shocker_report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "98e0a9d9294256a9",
+  "active": "5ef52927fc2477a2",
   "lastOpenFiles": [
+    "tmp.md",
     "shocker_report.md",
+    "shocker_report.pdf",
     "screenshots-storage/shocker_report.pdf",
     "screenshots-storage/root.txt.png",
     "screenshots-storage/get-root.png",
     "screenshots-storage/local.txt-contents.png",
     "screenshots-storage/pop-shelly-shell.png",
     "screenshots-storage/shell1-payload.png",
-    "xp/mini_report.md",
-    "priv-enum/mini_report.md",
-    "recon/nmap_all_vuln.md"
+    "xp/mini_report.md"
   ]
 }

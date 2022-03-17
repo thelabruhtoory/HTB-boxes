@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "7558cc1349852eaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "99f0d55386f966ce",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "bashed_report.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2428aed4e9ab4144",
+    "type": "split",
+    "children": [
+      {
+        "id": "19edcbe667be0979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "842db85dd18788dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "89d4512bd2a0fe09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b28da519e6919720",
+    "type": "split",
+    "children": [
+      {
+        "id": "a555c5bd5882064d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fc170336bff8590",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "bashed_report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "99f0d55386f966ce",
+  "lastOpenFiles": [
+    "bashed_report.md",
+    "bashed_proofs.md",
+    "screenshots-storage/better-shell.png",
+    "bashed_report.pdf",
+    "enum/web/mini_report.md",
+    "priv-xp/mini_report.md",
+    "screenshots-storage/dev_directory.png",
+    "screenshots-storage/found_php_dir.png",
+    "recon/mini_report.md",
+    "enum/mini_report.md"
+  ]
+}
