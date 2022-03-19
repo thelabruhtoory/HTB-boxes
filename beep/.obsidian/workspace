@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "a9da293bcd9e313f",
+    "type": "split",
+    "children": [
+      {
+        "id": "83c27bd96c468524",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "beep_report.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a92f9daf636c0fbf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0b529734d83ccee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "001bfba5b9d5b1ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "65c2e78f6db9f8f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "wget",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f8adee48c11205a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "942cbce1c491f0f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ab050c0d46609dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "beep_report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "83c27bd96c468524",
+  "lastOpenFiles": [
+    "beep_report.md",
+    "beep_proofs.md",
+    "beep_report.pdf",
+    "screenshots-storage/can_see_creds.png",
+    "screenshots-storage/can_see_passwords.png",
+    "xp/mini_report.md",
+    "enum/web/mini_report.md",
+    "enum/mini_report.md",
+    "enum/box_users.md",
+    "recon/nmap_all_vuln.md"
+  ]
+}
