@@ -1,16 +1,15 @@
 {
   "main": {
-    "id": "7558cc1349852eaf",
+    "id": "57bdc55c79a30ef3",
     "type": "split",
     "children": [
       {
-        "id": "23bbca7fe988bb6e",
+        "id": "129d0331e8a7b625",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "bashed_report.md",
-            "mode": "source"
+            "file": "Cronos_report.pdf"
           }
         }
       }
@@ -18,15 +17,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2428aed4e9ab4144",
+    "id": "9f9a273ac9093f6a",
     "type": "split",
     "children": [
       {
-        "id": "19edcbe667be0979",
+        "id": "ce64cb1104a1d7d0",
         "type": "tabs",
         "children": [
           {
-            "id": "842db85dd18788dd",
+            "id": "dbb07d6ce8e55068",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +33,7 @@
             }
           },
           {
-            "id": "89d4512bd2a0fe09",
+            "id": "49c81c918e02af81",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,20 +54,20 @@
     "width": 300
   },
   "right": {
-    "id": "b28da519e6919720",
+    "id": "ffb0ef5500c5ecb4",
     "type": "split",
     "children": [
       {
-        "id": "a555c5bd5882064d",
+        "id": "cd97daa38e255e5f",
         "type": "tabs",
         "children": [
           {
-            "id": "4fc170336bff8590",
+            "id": "439354a31ef705aa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bashed_report.md",
+                "file": "Cronos_report.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +85,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23bbca7fe988bb6e",
+  "active": "129d0331e8a7b625",
   "lastOpenFiles": [
-    "bashed_report.md",
-    "recon/nmap_all_tcp.md",
-    "bashed_proofs.md",
-    "screenshots-storage/better-shell.png",
-    "bashed_report.pdf",
+    "Cronos_report.pdf",
+    "Cronos_report.md",
     "enum/web/mini_report.md",
-    "priv-xp/mini_report.md",
-    "screenshots-storage/dev_directory.png",
-    "screenshots-storage/found_php_dir.png",
-    "recon/mini_report.md"
+    "screenshots-storage/how2_schedule_command1.png",
+    "enum/mini_report.md",
+    "recon/nmap_all_vuln.md",
+    "recon/nmap_all_tcp.md",
+    "screenshots-storage/rootshell_perm2.png",
+    "screenshots-storage/kernel.php1.png",
+    "cmd_2_run.md"
   ]
 }

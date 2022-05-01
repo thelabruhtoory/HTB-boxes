@@ -1,0 +1,3 @@
+/css                  (Status: 301) [Size: 306] [--> http://cronos.htb/css/]
+/js                   (Status: 301) [Size: 305] [--> http://cronos.htb/js/]
+/server-status        (Status: 403) [Size: 298]

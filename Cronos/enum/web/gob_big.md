@@ -1,0 +1,7 @@
+/.htaccess            (Status: 403) [Size: 294]
+/.htpasswd            (Status: 403) [Size: 294]
+/css                  (Status: 301) [Size: 306] [--> http://cronos.htb/css/]
+/favicon.ico          (Status: 200) [Size: 0]
+/js                   (Status: 301) [Size: 305] [--> http://cronos.htb/js/]
+/robots.txt           (Status: 200) [Size: 24]
+/server-status        (Status: 403) [Size: 298]
