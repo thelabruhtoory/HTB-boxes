@@ -1,0 +1,1 @@
+[1m[34mhttp://10.10.10.24[0m [200 OK] [1mCountry[0m[[0m[22mRESERVED[0m][[1m[31mZZ[0m], [1mHTML5[0m, [1mHTTPServer[0m[[1m[31mUbuntu Linux[0m][[1m[36mnginx/1.10.0 (Ubuntu)[0m], [1mIP[0m[[0m[22m10.10.10.24[0m], [1mTitle[0m[[1m[33mHTB Hairdresser[0m], [1mnginx[0m[[1m[32m1.10.0[0m]

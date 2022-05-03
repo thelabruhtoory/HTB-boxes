@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "7561a25dd4fcfe00",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3b61420f23aa875",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "haircut_report.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d94d94da77e6324",
+    "type": "split",
+    "children": [
+      {
+        "id": "affd608e0c6afe4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3caa7d346eb0e8a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "07970687387e527f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "851cfc5ddb29b766",
+    "type": "split",
+    "children": [
+      {
+        "id": "abd143dd0173926e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d669d0e3ce4d7678",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "haircut_report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c3b61420f23aa875",
+  "lastOpenFiles": [
+    "haircut_report.md",
+    "priv-xp/mini_report.md",
+    "enum/mini_report.md",
+    "recon/nmap_all_vuln.md",
+    "recon/nmap_all_tcp.md",
+    "cmds2run/2-port_scans.md",
+    "screenshots-storage/Edit form request in burpsuite.png",
+    "screenshots-storage/request on the attacker web server.png",
+    "cmds2run/8-stegonagraphy.md",
+    "enum/web/gob_files_priority.md"
+  ]
+}
