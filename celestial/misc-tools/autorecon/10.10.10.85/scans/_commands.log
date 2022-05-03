@@ -1,0 +1,18 @@
+nmap -vv --reason -Pn -T4 -sU -A --osscan-guess -p 3000 -oN "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/_custom_ports_udp_nmap.txt" -oX "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/xml/_custom_ports_udp_nmap.xml" 10.10.10.85
+
+nmap -vv --reason -Pn -T4 -sV -sC --version-all -A --osscan-guess -p 3000 -oN "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/_full_tcp_nmap.txt" -oX "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/xml/_full_tcp_nmap.xml" 10.10.10.85
+
+feroxbuster -u http://10.10.10.85:3000/ -t 10 -w /root/.config/AutoRecon/wordlists/dirbuster.txt -x "txt,html,php,asp,aspx,jsp" -v -k -n -q -e -o "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/tcp3000/tcp_3000_http_feroxbuster_dirbuster.txt"
+
+nmap -vv --reason -Pn -T4 -sV -p 3000 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/tcp3000/tcp_3000_http_nmap.txt" -oX "/HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/tcp3000/xml/tcp_3000_http_nmap.xml" 10.10.10.85
+
+curl -sSikf http://10.10.10.85:3000/robots.txt
+
+curl -sSik http://10.10.10.85:3000/
+
+curl -sSikf http://10.10.10.85:3000/.well-known/security.txt
+
+whatweb --color=never --no-errors -a 3 -v http://10.10.10.85:3000 2>&1
+
+wkhtmltoimage --format png http://10.10.10.85:3000/ /HTB-boxes/celestial/misc-tools/autorecon/10.10.10.85/scans/tcp3000/tcp_3000_http_screenshot.png
+

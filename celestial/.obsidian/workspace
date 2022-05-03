@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "9b4e288c36a05224",
+    "type": "split",
+    "children": [
+      {
+        "id": "88f4da5bd22f5501",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "879f6c4db89d9eed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3ee4cd82a4ca0d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "783b2f6683baf79b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cb1d0caa0fe1df60",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "92bed109c706d8d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "433c9b8bb81f95c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87957f4daf396a0a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "88f4da5bd22f5501",
+  "lastOpenFiles": [
+    "celestial_report.md",
+    "celestial_report.pdf",
+    "priv-xp/mini_report.md",
+    "screenshots-storage/pop_root_shell.png",
+    "enum/mini_report.md",
+    "recon/nmap_all_vuln.md",
+    "recon/nmap_all_tcp.md",
+    "recon/nmap_all_udp.md",
+    "cmds2run/2-port_scans.md",
+    "screenshots-storage/burp_found_cookie.png"
+  ]
+}
