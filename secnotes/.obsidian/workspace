@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "1d0182856eab6f12",
+    "type": "split",
+    "children": [
+      {
+        "id": "047a91b63b0dd65d",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64c36a573b89f054",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6f550834ca42444",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c19ceaee0f367ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "011ae1cc232e022c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "525e08ae71196a6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5324e37677833b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb74e5dbddf7c383",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "047a91b63b0dd65d",
+  "lastOpenFiles": [
+    "2-enum/web/mini_report.md",
+    "secnotes_report.md",
+    "9-screenshots-storage/uplaod_revshell.png",
+    "9-screenshots-storage/smb_login.png",
+    "1-recon/nmap/ip_tcp.md",
+    "secnotes_proofs.md",
+    "2-enum/box_users.md",
+    "2-enum/snmp/mini_report.md",
+    "9-screenshots-storage/root.txt.png",
+    "2-enum/mini_report.md"
+  ]
+}
