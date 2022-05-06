@@ -7,8 +7,11 @@
         "id": "88f4da5bd22f5501",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "recon/nmap_all_tcp.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "recon/nmap_all_tcp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,13 +88,13 @@
   },
   "active": "88f4da5bd22f5501",
   "lastOpenFiles": [
+    "recon/nmap_all_tcp.md",
     "celestial_report.md",
     "celestial_report.pdf",
     "priv-xp/mini_report.md",
     "screenshots-storage/pop_root_shell.png",
     "enum/mini_report.md",
     "recon/nmap_all_vuln.md",
-    "recon/nmap_all_tcp.md",
     "recon/nmap_all_udp.md",
     "cmds2run/2-port_scans.md",
     "screenshots-storage/burp_found_cookie.png"
