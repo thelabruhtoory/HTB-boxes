@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "a25aba44ae6813ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "8326d709a9e034d9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Ninevah_report.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "741cf05b7d28576c",
+    "type": "split",
+    "children": [
+      {
+        "id": "547a5389a7933b42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e73baf49df399676",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a036e39b00d5873",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa85abc1eb4637ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a602f02072ef650",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b913ddb31b06418",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ninevah_report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8326d709a9e034d9",
+  "lastOpenFiles": [
+    "Ninevah_report.md",
+    "3-xp/mini_report.md",
+    "9-screenshots-storage/get_ssh_amoris.png",
+    "2-enum/mini_report.md",
+    "9-screenshots-storage/pimp_shell.png",
+    "9-screenshots-storage/make_new_field.png",
+    "9-screenshots-storage/make_new_table.png",
+    "9-screenshots-storage/create_database.png",
+    "9-screenshots-storage/xp_url.png",
+    "9-screenshots-storage/https_admin_page.png"
+  ]
+}
