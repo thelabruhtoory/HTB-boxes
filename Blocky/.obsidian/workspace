@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "b96a62f9efb4da1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a6fae240266045c",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e345aaa32b8ba9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2ca61716d586d80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b1a9fda7a708161",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "07ff51899fe8d3e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "55f9db3d3184a6df",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ff1476f91152525",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36a967382aae7e66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7a6fae240266045c",
+  "lastOpenFiles": [
+    "Blocky_report.pdf",
+    "Blocky_report.md",
+    "1-recon/nmap/ip_tcp.md",
+    "1-recon/masscan-tcp.md",
+    "2-enum/mini_report.md",
+    "2-enum/web/gob_files_priority.md",
+    "2-enum/web/gob_dir.md",
+    "2-enum/web/dirb_ip_ext.md",
+    "2-enum/web/dirb_ip.md",
+    "cmds2run/6-brute_forcing.md"
+  ]
+}
